@@ -1,0 +1,102 @@
+[
+  {
+    "nom": "Scott",
+    "prenom": "Nathan",
+    "pseudo": "nateS23",
+    "courriel": "nateScott@gmail.com",
+    "telephone": "910-643-2303",
+    "adresse": "2709 Middle Sound Loop Rd.",
+    "motDePasse": "James23",
+    "suiveur": 23
+  },
+  {
+    "nom": "Scott",
+    "prenom": "Lucas",
+    "pseudo": "luke",
+    "courriel": "lucasScott@gmail.com",
+    "telephone": "910-345-1203",
+    "adresse": "1829 Wrightsville Ave",
+    "motDePasse": "sawyer03",
+    "suiveur": 3
+  },
+  {
+    "nom": "Davis",
+    "prenom": "Brooke",
+    "pseudo": "bDavis",
+    "courriel": "clothesOverBros@gmail.com",
+    "telephone": "910-323-1111",
+    "adresse": "101 Rouge Cove Dr.",
+    "motDePasse": "bakerBoy",
+    "suiveur": 300
+  },
+  {
+    "nom": "James",
+    "prenom": "Haley",
+    "pseudo": "hJScott",
+    "courriel": "haleyMusic@gmail.com",
+    "telephone": "910-420-0323",
+    "adresse": "2709 Middle Sound Loop Rd",
+    "motDePasse": "jamie2312",
+    "suiveur": 120
+  },
+  {
+    "nom": "Sawyer",
+    "prenom": "Peyton",
+    "pseudo": "pSawyer",
+    "courriel": "redBedroomRecords@gmail.com",
+    "telephone": "910-302-1402",
+    "adresse": "1829 Wrightsville Ave",
+    "motDePasse": "music03",
+    "suiveur": 100
+  },
+  {
+    "nom": "Jagielski",
+    "prenom": "Jake",
+    "pseudo": "jag00",
+    "courriel": "j.jagielski@gmail.com",
+    "telephone": "910-332-0008",
+    "adresse": "1000 Wrightsville Ave",
+    "motDePasse": "jenny00",
+    "suiveur": 0
+  },
+  {
+    "nom": "McFadden",
+    "prenom": "Marvin",
+    "pseudo": "mouth",
+    "courriel": "marvin.mcfadden@gmail.com",
+    "telephone": "910-302-8267",
+    "adresse": "182 Rouge Cove Dr.",
+    "motDePasse": "J1mmyM",
+    "suiveur": 100
+  },
+  {
+    "nom": "Taylor",
+    "prenom": "Antwon",
+    "pseudo": "skills",
+    "courriel": "skills@gmail.com",
+    "telephone": "910-410-1829",
+    "adresse": "182 Rouge Cove Dr.",
+    "motDePasse": "Bask3t",
+    "suiveur": 50
+  },
+  {
+    "nom": "Huxtable",
+    "prenom": "Millicent",
+    "pseudo": "millie",
+    "courriel": "millieandmouth@gmail.com",
+    "telephone": "910-210-1423",
+    "adresse": "182 Rouge Cove Dr.",
+    "motDePasse": "marvin4life",
+    "suiveur": 120
+  },
+  {
+    "nom": "Catalano",
+    "prenom": "Mia",
+    "pseudo": "MiaCatalano",
+    "courriel": "catalano.mia@gmail.com",
+    "telephone": "910-302-5231",
+    "adresse": "1121 S Front St",
+    "motDePasse": "aF1neMess",
+    "suiveur": 200
+  }
+]

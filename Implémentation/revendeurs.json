@@ -1,0 +1,37 @@
+[
+  {
+    "nom": "Karen Scott",
+    "courriel": "karenscafe@gmail.com",
+    "telephone": "910-032-2203",
+    "adresse": "272 N Front St",
+    "motDePasse": "keith22"
+  },
+  {
+    "nom": "Quinn James",
+    "courriel": "quinnphotography@gmail.com",
+    "telephone": "910-389-1293",
+    "adresse": "650 New River Inlet Rd",
+    "motDePasse": "clayLogan"
+  },
+  {
+    "nom": "Clay Evans",
+    "courriel": "fortitude@gmail.com",
+    "telephone": "910-650-1223",
+    "adresse": "650 New River Inlet Rd",
+    "motDePasse": "Wolverine"
+  },
+  {
+    "nom": "Julian Baker",
+    "courriel": "bakerfilm@gmail.com",
+    "telephone": "910-120-8290",
+    "adresse": "101 Rouge Cove Dr.",
+    "motDePasse": "judeDavis"
+  },
+  {
+    "nom": "Chase Adams",
+    "courriel": "pilotChase@gmail.com",
+    "telephone": "910-259-2331",
+    "adresse": "1121 S Front St.",
+    "motDePasse": "barManager"
+  }
+]
