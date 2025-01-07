@@ -1,0 +1,251 @@
+<html>
+<head>
+    <title>IFT2255 - Devoir 2</title>
+</head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid black;
+            border-right: 1px;
+            
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid #000000;
+            width: 15%;
+            border-right: 1px solid black;
+        }
+
+        td {
+            height: 50px;
+        }
+
+        th {
+            background-color: #ffffff;  
+        }
+    </style>
+<body>
+    <h1 style="text-align: center;">
+        IFT 2255 - Devoir 2</h1>
+    <h2>
+        Information générale</h2>
+    <p>
+        <span style="font-weight: bold;">Nom de l'équipe: </span>Future millionnaire
+    </p>
+    <p>
+        <a href="https://github.com/janicf/IFT2255-Devoir">Lien vers dépôt GitHub</a><br>
+        <a href="https://github.com/janicf/IFT2255-Devoir/pulse">Lien vers Insights</a>
+    </p>
+
+    <p>
+        <span style="font-weight: bold;">Nom: </span>Catina Beaulieu
+        <br/>
+        <span style="font-weight: bold;">Matricule: </span>20216999
+        <br/>
+        <span style="font-weight: bold;">Courriel: </span>catina.beaulieu@umontreal.ca
+        <br/>
+        <span style="font-weight: bold;">Temps mis: 32 heures </span> 
+    </p>
+    <p>
+        <span style="font-weight: bold;">Nom: </span>Mariam Tamer Mohamed Elwa
+        <br/>
+        <span style="font-weight: bold;">Matricule: </span>20241953 
+        <br/>
+        <span style="font-weight: bold;">Courriel: </span>mariam.elwa@umontreal.ca
+        <br/>
+        <span style="font-weight: bold;">Temps mis: 35 heures </span> 
+    </p>
+    <p>
+        <span style="font-weight: bold;">Nom: </span>Grace Lee
+        <br/>
+        <span style="font-weight: bold;">Matricule: </span>20174147
+        <br/>
+        <span style="font-weight: bold;">Courriel: </span>grace.lee@umonteal.ca
+        <br/>
+        <span style="font-weight: bold;">Temps mis: 30 heures </span> 
+    </p>
+    <p>
+        <span style="font-weight: bold;">Nom: </span>Janic Fournel
+        <br/>
+        <span style="font-weight: bold;">Matricule: </span>20201900
+        <br/>
+        <span style="font-weight: bold;">Courriel: </span>janic.fournel@umontreal.ca
+        <br/>
+        <span style="font-weight: bold;">Temps mis: 40 heures</span> 
+    </p>
+
+    <h2>
+        Distribution des tâches</h2>
+    <p>
+        <span style="font-weight: bold;">Soumissionnaire: </span>Janic Fournel
+    </p>    
+<table>
+
+        <tr>
+            <th>Tâches</th>
+            <th>Catina</th>
+            <th>Janic</th>
+            <th>Mariam</th>
+            <th>Grace</th>
+            <th>pourcentage</th>
+
+           
+        </tr>
+        <tr>
+            <td>Analyse</td>
+            <td> 
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td> Janic (100%)<br>
+                 
+            </td>
+        </tr>
+        <tr>
+            <td>Diagramme d'activités</td>
+            <td>1 Diagramme: Offrir un produit</td>
+            <td>1 Diagramme: Diagramme d'activités général</td>
+            <td>2 Diagrammes: Evaluer produit et Retourner/echanger commande</td>
+            <td>2 Diagrammes: passer commande & Confirmer la reception d'une commande </td>
+            <td>Catina (17%)<br>
+                Janic (17%)<br>
+                Mariam (33%)<br>
+                Grace (33%)</td>
+        </tr>
+        <tr>
+            <td>Diagramme de classe</td>
+            <td>15 classes</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Catina (100%)</td>
+        </tr>
+        <tr>
+            <td>Diagramme de séquence</td>
+            <td></td>
+            <td>1 diagramme: Offrir un produit</td>
+            <td> 2 Diagrammes: Evaluer produit et Retourner/échanger commande  </td>
+            <td>2 diagrammes: Passer commande & Confirmer la reception d'une commande</td>
+            <td>Janic (20%)<br>
+                Mariam (40%)<br>
+                Grace (40%)</td>
+        </tr>
+        <tr>
+            <td>Prototype</td>
+            <td>Catalogue, panierAchat</td>
+            <td>métriques acheteurs,métriques revendeurs, <br>
+                inscriptions acheteurs, inscriptions revendeurs et offrir un produit</td>
+            <td>Evaluer produit, Programme fidélité, Notifications (acheteurs), Notifications (revendeurs), Gestion problèmes, Confirmer réception retour </td>
+            <td>Passer commande, Confirmer la reception d'une commande, Connexion acheteur (incomplet)</td>
+            <td>Mariam (40%)<br>
+                Grace (20%)<br>
+                Janic (27%)<br>
+                Catina (13%) <br></td>
+        </tr>
+
+    </table>
+    
+    
+    <h2>
+        Tâche 1 : Analyse</h2>
+        <p>L’outil UniShop est une plateforme en ligne qui sera informatisé en traitement batch en utilisant le langage Java. Les données seront stockées dans une base de données<br> sécurisée hébergée sur les serveurs d’UniShop. Le matériel requis est un serveur robuste pour héberger la base de données et le site web avec une connexion internet<br> fiable. Le système Unishop va interagir avec les systèmes de livraisons (transmission des informations de livraison, suivi colis, etc.) et de paiement en ligne<br> (validation méthode paiement, prise de paiement, etc.). Les utilisateurs vont interagir avec la plateforme avec des lignes de commandes.</p>
+
+    <h2>
+        Tâche 2 : Diagramme d'activités</h2>
+        <h3>Diagramme Principal</h3>
+        <a href="DiagrammeActivitePrincipal.svg"><img src="DiagrammeActivitePrincipal.svg" style="width: 1300px; height: auto"></a>
+        <br>
+        <p><a href="DiagrammeActivitePrincipal.vpp">Lien vers fichier Visual Paradigm</a></p>
+        <br>
+
+        <h3>Diagramme Passer une commande</h3>
+        <a href="Passer une commande.svg"><img src="Passer une commande.svg" style="width: auto; height: auto"></a>
+        <br>
+        <p><a href="Passer une commande.vpp">Lien vers fichier Visual Paradigm</a></p>
+        <br>
+
+        <h3>Diagramme Évaluer un produit</h3>
+        <a href="Activity Diagram Evaluer produit TP2.svg"><img src="Activity Diagram Evaluer produit TP2.svg" style="width: auto; height: auto"></a>
+        <br>
+        <p><a href="Activity Diagram Evaluer produit TP2.vpp">Lien vers fichier Visual Paradigm</a></p>
+        <br>
+
+        <h3>Diagramme Retourner/échanger une commande</h3>
+        <a href="Activity diagram retourner_echanger produit TP2 updatedd.svg"><img src="Activity diagram retourner_echanger produit TP2 updatedd.svg" style="width: 1300px; height: auto"></a>
+        <br>
+        <p><a href="Activity diagram retourner_echanger produit TP2 updatedd.vpp">Lien vers fichier Visual Paradigm</a></p>
+        <br>
+
+        <h3>Diagramme Confirmer la réception d'une commande </h3>
+        <a href="Confirmer la reception d'une commande.svg"><img src="Confirmer la reception d'une commande.svg" style="width: auto; height: auto"></a>
+        <br>
+        <p><a href="Confirmer la reception d'une commande.vpp">Lien vers fichier Visual Paradigm</a></p>
+        <br>
+
+        <h3>Diagramme Offrir un produit</h3>
+        <a href="Activity Diagram Offir un produit.svg"><img src="Activity Diagram Offir un produit.svg" style="width: auto; height: auto"></a>
+        <br>
+        <p><a href="DiagrammeActivitéOffrirProduit.vpp">Lien vers fichier Visual Paradigm</a></p>
+        <br>
+    
+    <h2>
+        Tâche 3 : Diagramme de classe</h2>
+        <a href="../Conception/Class Diagram1.svg"><img src="../Conception/Class Diagram1.svg" style="width: 1300px; height: auto"></a>
+        <br>
+        <p><a href="../Conception/DiagramClasse.vpp">Lien vers fichier Visual Paradigm</a></p>
+        <br>
+
+    <h2>
+        Tâche 4 : Diagramme de séquence</h2>
+        <h3>Diagramme Passer une commande</h3>
+        <a href="../Conception/Sequence_Passer une commande.svg"><img src="../Conception/Sequence_Passer une commande.svg" style="width: auto; height: auto"></a>
+        <br>
+        <p><a href="../Conception/Sequence_Passer une commande.vpp">Lien vers fichier Visual Paradigm</a></p>
+        <br>
+
+        <h3>Diagramme Évaluer un produit</h3>
+        <a href="../Conception/Evaluer produit sequence diagram tp2 up.svg"><img src="../Conception/Evaluer produit sequence diagram tp2 up.svg" style="width: auto; height: auto"></a>
+        <br>
+        <p><a href="../Conception/evaluer produit diagramme sequence tp2.vpp">Lien vers fichier Visual Paradigm</a></p>
+        <br>
+
+        <h3>Diagramme Retourner/échanger une commande</h3>
+        <a href="../Conception/echange_retour Sequence Diagram tp2.svg"><img src="../Conception/echange_retour Sequence Diagram tp2.svg" style="width: auto; height: auto"></a>
+        <br>
+        <p><a href="../Conception/echange_retour Sequence diagram.vpp">Lien vers fichier Visual Paradigm</a></p>
+        <br>
+
+        <h3>Diagramme Confirmer la réception d'une commande </h3>
+        <a href="../Conception/Sequnce_Confirmer réception de commande.svg"><img src="../Conception/Sequnce_Confirmer réception de commande.svg" style="width: auto; height: auto"></a>
+        <br>
+        <p><a href="../Conception/Sequence_Confirmer reception commande.vpp">Lien vers fichier Visual Paradigm</a></p>
+        <br>
+
+        <h3>Diagramme Offrir un produit</h3>
+        <a href="../Conception/Offrir Produit.svg"><img src="../Conception/Offrir Produit.svg" style="width: auto; height: auto"></a>
+        <br>
+        <p><a href="../Conception/DiagrammeSequence-OffriProduit.vpp">Lien vers fichier Visual Paradigm</a></p>
+        <br>
+
+    <h2>
+        Tâche 5 : Prototype</h2>
+        <p><a href="../Implémentation/UnishopCLI/src/UnishopCLI.java">Lien vers fichier UnishopCLI (main)</a></p>
+        <p><a href="../Implémentation/UnishopCLI/out/artifacts/UnishopCLI_jar/UnishopCLI.jar">Lien vers fichier JAR</a></p>
+
+    <h2>
+      Insights et Contributors</h2>
+
+      <a href="Contributors1.png"><img src="Contributors1.png" style="width: 1300px; height: auto"></a>
+      <a href="Contributors2.png"><img src="Contributors2.png" style="width: 1300px; height: auto"></a>
+      <a href="Insight1.png"><img src="Insight1.png" style="width: 1300px; height: auto"></a>
+      <a href="Insight2.png"><img src="Insight2.png" style="width: 1300px; height: auto"></a>
+
+</body>
+</html>
